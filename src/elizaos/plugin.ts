@@ -1,7 +1,7 @@
 import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
 import { DynamicStructuredTool } from '@langchain/core/tools';
 import { BufferMemory } from 'langchain/memory';
-import { HederaAgentKit } from '../agentkit/index.js';
+import { HederaAgentKit } from '../agentkit/hederaAgent.js';
 import { Intent, Message, Plugin, ElizaPluginConfig } from './types.js';
 import { z } from 'zod';
 import { RunnableSequence } from '@langchain/core/runnables';
