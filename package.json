@@ -20,6 +20,7 @@
   "dependencies": {
     "@hashgraph/sdk": "^2.26.0",
     "@headlessui/react": "^1.7.14",
+    "hedera-agent-kit": "^0.1.0",
     "@heroicons/react": "^2.2.0",
     "@langchain/core": "^0.1.18",
     "@langchain/google-genai": "^0.0.10",
